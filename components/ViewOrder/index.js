@@ -628,7 +628,7 @@ const ViewOrder = (props) => {
                 container: styles.customDialogTitle
               }
             })
-            return
+            // return
           }
         }
 

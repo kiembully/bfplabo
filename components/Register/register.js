@@ -9,7 +9,7 @@ import styles from '../Card/order.module.scss'
 const RegisterOfficer = (props) => {
   const {
     handleSubmit,
-    filteredOfficers,
+    // filteredOfficers,
     setSubmitOfficerError,
     handleDismiss,
     officers

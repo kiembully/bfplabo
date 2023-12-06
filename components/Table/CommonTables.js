@@ -17,10 +17,10 @@ const CommonTable = (props) => {
     // copyToClipBoard
   } = props
 
-  const formatDate = (timestamp) => {
-    const options = { month: '2-digit', day: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }
-    return new Date(timestamp).toLocaleDateString('en-US', options)
-  }
+  // const formatDate = (timestamp) => {
+  //   const options = { month: '2-digit', day: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }
+  //   return new Date(timestamp).toLocaleDateString('en-US', options)
+  // }
 
   return tableData.length <= 0
     ? <Typography variant="h5">No data found.</Typography>

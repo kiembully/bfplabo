@@ -6,7 +6,7 @@ import { notify } from '../../helper/notify.helper'
 import Toastify from '../Notifs/Toastify'
 import { isPasswordValid, isValidEmail } from '../../helper/validation.helper'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import CommonBackdrop from '../Backdrop'
 
 const Login = (props) => {
@@ -58,7 +58,7 @@ const Login = (props) => {
         margin: 'auto'
       }}
     >
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}>
           <div style={{
             display: 'block',
             height: '100px',
@@ -75,7 +75,7 @@ const Login = (props) => {
               sizes="(max-width: 768px) 100vw"
             />
           </div>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12}>
         </Grid>
         <Grid item xs={12}>
@@ -84,7 +84,6 @@ const Login = (props) => {
             propValue={useremail}
             propOnChange={handleEmail}
             error={login.error}
-            // error={order.error}
           />
           <CommonInput
             title="Password"
