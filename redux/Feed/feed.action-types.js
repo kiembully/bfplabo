@@ -1,0 +1,5 @@
+export const FEED_LOADING = 'FEED_LOADING'
+export const FEED_SET = 'FEED_SET'
+export const FEED_UPDATING = 'FEED_UPDATING'
+export const FEED_ERROR = 'FEED_ERROR'
+export const FEED_PAGE = 'FEED_PAGE'

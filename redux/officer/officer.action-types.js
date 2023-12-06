@@ -1,0 +1,5 @@
+export const OFFICER_LOADING = 'LOGIN_LOADING'
+export const OFFICER_ENTRY = 'LOGIN_ENTRY'
+export const OFFICER_LIST = 'OFFICER_LIST'
+export const OFFICER_ERROR = 'LOGIN_ERROR'
+export const OFFICER_MESSAGE = 'LOGIN_MESSAGE'

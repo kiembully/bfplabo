@@ -1,0 +1,4 @@
+export const LOGIN_LOADING = 'LOGIN_LOADING'
+export const LOGIN_ENTRY = 'LOGIN_ENTRY'
+export const LOGIN_ERROR = 'LOGIN_ERROR'
+export const LOGIN_MESSAGE = 'LOGIN_MESSAGE'

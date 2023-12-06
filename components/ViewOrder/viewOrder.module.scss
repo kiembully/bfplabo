@@ -1,0 +1,31 @@
+.viewOrderWrap {
+  background: '#f4f2de';
+  display: 'flex';
+  color: 'red'
+}
+
+.timerWrap {
+  width: 100%;
+  flex-flow: column;
+  div {
+    background-color: #B9B4C7;
+    padding: 20px 0;
+    border-radius: 8px;
+    span {
+      font-size: 42px;
+    }
+  }
+}
+
+.attachmentWrap {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 7px;
+}
+
+.customDialogTitle {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}

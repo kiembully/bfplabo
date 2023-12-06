@@ -1,0 +1,5 @@
+export const ORDER_LOADING = 'ORDER_LOADING'
+export const ORDER_ERROR = 'ORDER_ERROR'
+export const ORDER_STEPS = 'ORDER_STEPS'
+export const ORDER_DATA = 'ORDER_DATA'
+export const ORDER_MESSAGE = 'ORDER_MESSAGE'

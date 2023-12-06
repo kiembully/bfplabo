@@ -1,0 +1,3 @@
+export const EMAIL_LOADING = 'EMAIL_LOADING'
+export const EMAIL_MESSAGE = 'EMAIL_MESSAGE'
+export const EMAIL_DATA = 'EMAIL_DATA'
